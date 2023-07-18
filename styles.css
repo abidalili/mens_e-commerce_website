@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+/* navbar design starts here */
+nav {
+  background-color: #9376e0;
+  color: white;
+  padding: 10px 0;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+.hive {
+  color: #e893cf;
+}
+.navigation-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.navigation-container a {
+  text-decoration: none;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+.nav-image {
+  width: 50px;
+}
+.navigation-container .login {
+  padding: 5px 10px;
+  background-color: #e893cf;
+  border-radius: 5px;
+  color: black;
+  font-weight: 700;
+}
+.fa-solid {
+  color: #9376e0;
+}
+/* navbar design ends here */
